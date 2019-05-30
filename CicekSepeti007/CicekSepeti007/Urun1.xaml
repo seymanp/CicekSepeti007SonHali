@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CicekSepeti007.Urun1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <ImageButton Source="DalBeyazOrkide1.PNG" Clicked="ImageButton_Clicked" />
+            </Grid>
+
+            <Grid>
+                <Image Source="DalBeyazOrkide0.PNG" />
+            </Grid>
+            <Grid>
+                <Image Source="GondereceginizYer.PNG" Margin="2" />
+            </Grid>
+            <Grid>
+                <Image Source="TeslimatTarihi.PNG" Margin="2"/>
+            </Grid>
+
+            <Grid>
+                <Label Text="     79.99 TL"/>
+                <ImageButton Source="SatinAl.PNG" Margin="150,2,2,2"/>
+
+            </Grid>
+
+
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

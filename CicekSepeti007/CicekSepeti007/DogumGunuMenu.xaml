@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CicekSepeti007.DogumGunuMenu">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <Button Text="&lt;                   DOĞUM GÜNÜ" Font="Bold" Padding="5" HeightRequest="30" Clicked="MainMenu" />
+            </Grid>
+            <Grid>
+                <Button BackgroundColor="White" Text="Tüm Ürünleri Gör" HeightRequest="34" Padding="5" Clicked="TumUrunler"  />
+            </Grid>
+            <Grid>
+                <Button BackgroundColor="White" Text="Doğum Günü Çiçekleri" HeightRequest="34" Padding="5" />
+            </Grid>
+            <Grid>
+                <Button BackgroundColor="White" Text="Doğum Günü Hediyeleri" HeightRequest="34" Padding="5" />
+            </Grid>
+            <Grid>
+                <Button BackgroundColor="White" Text="Doğum Günü BonnyFood" HeightRequest="34" Padding="5" />
+            </Grid>
+            <Grid>
+                <Button BackgroundColor="White" Text="Tasarım Çiçekler" HeightRequest="34" Padding="5" />
+            </Grid>
+            <Grid>
+                <Button BackgroundColor="White" Text="Güller" HeightRequest="34" Padding="5" />
+            </Grid>
+            <Grid>
+                <Button BackgroundColor="White" Text="Kişiye Özel" HeightRequest="34" Padding="5" />
+            </Grid>
+            <Grid>
+                <Button BackgroundColor="White" Text="Meyve Sepeti"  HeightRequest="34" Padding="5" />
+            </Grid>
+            <Grid>
+                <Button BackgroundColor="White" Text="Çikolata"  HeightRequest="34" Padding="5" />
+            </Grid>
+            <Grid>
+                <Button BackgroundColor="White" Text="Orkide"  HeightRequest="34" Padding="5" />
+            </Grid>
+            <Grid>
+                <Button BackgroundColor="White" Text="Saksı Çiçekleri"  HeightRequest="34" Padding="5" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+
+
+</ContentPage>

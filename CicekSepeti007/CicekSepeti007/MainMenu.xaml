@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CicekSepeti007.MainMenu">
+
+    <ContentPage.Content>
+        <Grid>
+            <StackLayout BackgroundColor="White" WidthRequest="240">
+                <Grid>
+                    <Button Font="Bold"  Clicked="TumUrunlerclk" Text="ARADIĞINIZ TÜM ÜRÜNLER"/>
+                </Grid>
+                <Grid>
+                    <Button BackgroundColor="White" Padding="5"  Text="Doğum Günü" HeightRequest="34"  Clicked="Click_DogumGunu"/>
+                </Grid>
+                <Grid>
+                    <Button BackgroundColor="White" Padding="5" Text="Çiçek" HeightRequest="34"   />
+                </Grid>
+                <Grid>
+                    <Button BackgroundColor="White" Padding="5" Text="Tasarım Çiçekler" HeightRequest="34"   />
+                </Grid>
+                <Grid>
+                    <Button BackgroundColor="White" Padding="5" Text="Hediye" HeightRequest="34"   />
+                </Grid>
+                <Grid>
+                    <Button BackgroundColor="White" Padding="5" Text="Yenilebilir Çiçek" HeightRequest="34"   />
+                </Grid>
+                <Grid>
+                    <Button BackgroundColor="White" Padding="5" Text="İsme Özel Hediye" HeightRequest="34"  />
+                </Grid>
+                <Grid>
+                    <Button Font="Bold" Padding="5" Text="ÜYELİK" Opacity="0.45" HeightRequest="32"/>
+                </Grid>
+                <Grid>
+                    <Button Clicked="Click_UyeGirisi" Padding="5"  BackgroundColor="White" Text="Üye Girişi"  HeightRequest="34"   />
+                </Grid>
+                <Grid>
+                    <Button Clicked="MainMenuUyeGirisi" Padding="5" BackgroundColor="White" Text="Üye Ol"  HeightRequest="34"   />
+                </Grid>
+                <Grid>
+                    <Button BackgroundColor="White" Padding="5" Text="Sipariş Takip"  HeightRequest="34"   />
+                </Grid>
+                <Grid>
+                    <Button BackgroundColor="White" Padding="5" Text="Favorilerim"  HeightRequest="34"   />
+                </Grid>
+            </StackLayout>
+        </Grid>
+
+    </ContentPage.Content>
+
+
+</ContentPage>

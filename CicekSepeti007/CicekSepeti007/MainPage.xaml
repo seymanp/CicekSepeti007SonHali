@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CicekSepeti007"
+             x:Class="CicekSepeti007.MainPage">
+
+    <Grid>
+        <Grid>
+            <StackLayout>
+                <ImageButton x:Name="Menu" Source="SearchandLogo.PNG" Clicked="Menu_Clicked"/>
+            </StackLayout>
+        </Grid>
+        <Grid Margin="0,77,0,0">
+            <ScrollView>
+                <StackLayout>
+                    <ImageButton x:Name="Cicekler"  Source="Main1.PNG" Clicked="Cicekler_Clicked"/>
+                    <ImageButton Source="Main2.PNG"/>
+                    <ImageButton Source="Main3.PNG"/>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </Grid>
+
+</ContentPage>

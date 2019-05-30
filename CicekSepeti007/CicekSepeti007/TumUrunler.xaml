@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CicekSepeti007.TumUrunler">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid>
+                <ImageButton Source="TumUrunler.PNG" Clicked="Menu"/>
+            </Grid>
+            <ScrollView>
+                <StackLayout>
+                    <Grid>
+                        <ImageButton Source="DalBeyazOrkide.PNG" Margin="2"  Clicked="ClkOrkide"/>
+                    </Grid>
+                    <Grid>
+                        <ImageButton Source="PapatyaKuresi.PNG" Margin="2" Clicked="ClkPapatya"  />
+                    </Grid>
+                    <Grid>
+                        <ImageButton Source="DusPrensesiGerbera.PNG" Margin="2"/>
+                    </Grid>
+                    <Grid>
+                    <ImageButton Source="DogalAhsapKutuktePapatya.PNG" Margin="2"/>
+                    </Grid>
+                    <Grid>
+                        <ImageButton Source="DamaliVazodaDalOrkide.PNG" Margin="2"/>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
